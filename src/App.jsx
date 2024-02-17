@@ -7,9 +7,11 @@ function App() {
         <header className="bg-white dark:bg-gray-900">
           <nav className="bg-white dark:bg-gray-900">
             <div className="container flex flex-col items-center p-6 mx-auto">
-              <a href="#" className="mx-auto ">
-                <img className="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="" />
-              </a>
+              <div className="mx-auto flex items-center gap-3">
+                <img className="w-auto h-6 sm:h-7" src="https://i.ibb.co/SJ2NC6W/user.png" alt="" />
+
+                <h2 className="text-2xl font-bold">Forhad</h2>
+              </div>
 
               <div className="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300">
                 <a href="#" className="mx-2 text-gray-800 border-b-2 border-blue-500 dark:text-gray-200 sm:mx-6">home</a>
